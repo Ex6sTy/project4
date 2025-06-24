@@ -1,4 +1,4 @@
-from rest_freamework.permissions import BasePermissions
+from rest_framework.permissions import BasePermissions
 
 
 class IsOwnerOrStaff(BasePermissions):
